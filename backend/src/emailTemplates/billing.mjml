@@ -1,0 +1,58 @@
+<mjml>
+  <mj-body background-color="#eee">
+    <mj-wrapper padding="40px">
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-text align="center" font-size="32px">{{header}}</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-text align="center" font-size="24px">{{subheader}}</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          {{#meta}}
+          <mj-text font-size="14px">{{meta}}</mj-text>
+          {{/meta}}
+        </mj-column>
+      </mj-section>
+      {{#billings}}
+        <mj-section border-top="1px solid #eee" padding="0" background-color="#fff">
+          <mj-column>
+            <mj-text font-size="14px">{{name}}</mj-text>
+          </mj-column>
+          <mj-column>
+            <mj-text align="right" font-size="14px">{{value}}</mj-text>
+          </mj-column>
+        </mj-section>
+      {{/billings}}
+      <mj-section border-top="2px solid #333" border-bottom="2px solid #333" padding="0" background-color="#fff">
+        <mj-column>
+          <mj-text font-size="16px" font-weight="bold">Total:</mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text align="right" font-size="16px" font-weight="bold">{{total}}</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-text font-size="14px">Ønsker deg en fantastisk festivalopplevelse.</mj-text>
+          <mj-text font-size="14px">For spørsmål kontakt oss her:</mj-text>
+          <mj-text font-size="14px">
+            <a href="https://wwww.facebook.com/spisogdrikk" target="_blank">
+              https://wwww.facebook.com/spisogdrikk
+            </a>
+          </mj-text>
+          <mj-text font-size="14px">
+            Eller send en mail til:
+            <a href="mailto:spisogdrikk@aller.com" target="_blank">
+              spisogdrikk@aller.com
+            </a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

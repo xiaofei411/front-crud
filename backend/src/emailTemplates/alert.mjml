@@ -1,0 +1,18 @@
+<mjml>
+  <mj-body background-color="#eee">
+    <mj-wrapper padding="40px">
+      <mj-section background-color="#FF9F00">
+        <mj-column>
+          <mj-text align="center" font-size="16px" color="#fff">{{header}}</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#fff">
+        <mj-column>
+          <mj-text font-size="16px">{{text}}</mj-text>
+          <mj-button background-color="#348eda" href="${buttonLink}">{{buttonText}}</mj-button>
+          <mj-text font-size="14px">Spis Og Drikk festival</mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
